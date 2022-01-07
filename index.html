@@ -34,13 +34,13 @@
                       <span class="say">我的公主.</span><br>
                       <span class="say">但是我想你是我心中</span><br>
                               <span class="say">永远的公主.</span><br>
-                      <span class="say"><h2>冯潇，做我女朋友好吗</h2></span> </font>
+                    </font>
                       </p>
                     </div>
                   </div>
                 <div id="clock-box">
-                    <!-- <span class="STYLE1"></span><font color="#33CC00">亲爱的，我喜欢你</font>
-<span class="STYLE1">已经是……</span> -->
+                    <span class="STYLE1"></span><font color="#33CC00">亲爱的，我们在一起</font>
+<span class="STYLE1">已经是……</span>
                   <div id="clock"></div>
               </div>
                 <canvas id="canvas" width="1100" height="680"></canvas>
@@ -178,17 +178,17 @@
         }));
 
         var textAnimate = eval(Jscex.compile("async", function () {
-		    // var together = new Date();
-		    // together.setFullYear(2021,11,17); 			//时间年月日
-		    // together.setHours(16);						//小时	
-		    // together.setMinutes(53);					//分钟
-		    // together.setSeconds(0);					//秒前一位
-		    // together.setMilliseconds(2);				//秒第二位
+		    var together = new Date();
+		    together.setFullYear(2021,12,23); 			//时间年月日
+		    together.setHours(20);						//小时	
+		    together.setMinutes(0);					//分钟
+		    together.setSeconds(0);					//秒前一位
+		    together.setMilliseconds(0);				//秒第二位
 
 		    $("#code").show().typewriter();
             $("#clock-box").fadeIn(500);
             while (true) {
-                // timeElapse(together);
+                timeElapse(together);
                 $await(Jscex.Async.sleep(1000));
             }
         }));
