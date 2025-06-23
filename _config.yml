@@ -30,6 +30,14 @@ authors:
     web: 
     twitter:
     description: "可怜小黑猫."
+  cat:
+    name: Yumi
+    display_name: Yumi
+    avatar: 'assets/images/cat.JPG'
+    email: jimpeng98@gmail.com
+    web:
+    twitter:
+    description: "最可爱的小猫肥咪"
 
 # Plugins
 plugins:
